@@ -1,10 +1,11 @@
 ## This is a Code book to describe the variables contained in separate columns of the tidy dataset
 
+## DATA DICTIONARY – Human Activity Recognition Using Smartphones 
+
+
 The tidy dataset contains 68 columns namely:
 
-* names(tidydataset)
- 
- [1] "activity"                    "subject"                    
+[1] "activity"                    "subject"                    
  [3] "tBodyAcc-mean()-X"           "tBodyAcc-mean()-Y"          
  [5] "tBodyAcc-mean()-Z"           "tGravityAcc-mean()-X"       
  [7] "tGravityAcc-mean()-Y"        "tGravityAcc-mean()-Z"       
@@ -40,7 +41,12 @@ The tidy dataset contains 68 columns namely:
 [67] "fBodyBodyGyroMag-std()"      "fBodyBodyGyroJerkMag-std()"
 
 DESCRIPTION
-Activity: This is the activity being performed, while measurements were taken by the accelerometers from the Samsung device.
-Subject: This is the identification number of the subject in the test.
-The rest variables are the measurements taken on the subject while performing an activity.
+
+Activity: 
+This is the activity being performed, while measurements were taken by the accelerometers from the Samsung device.
+
+Subject: 
+This is the identification number of the subject in the test.
+
+Each of the remaining variables stands a measurement taken on the subject while performing an activity.
 
