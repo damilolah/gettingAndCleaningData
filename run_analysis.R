@@ -62,9 +62,7 @@ summary(meltdataset)
 tidydataset <- dcast(meltdataset, activity + subject ~ variable, mean)
 
 summary(tidydataset)
-
-write.csv(tidydataset, "tidydata.txt")
-
 names(tidydataset)
 
+write.table(tidydataset, "tidydata.txt", row.name=FALSE)
 
