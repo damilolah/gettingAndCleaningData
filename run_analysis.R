@@ -1,6 +1,6 @@
 
 
-## read the rough data set into x1, x2, x3 and x4 
+## read the rough data set into x1, x2, y1 and y2 
 x1 <- read.table("UCI HAR Dataset/train/X_train.txt")
 
 x2 <- read.table("UCI HAR Dataset/test/X_test.txt")
